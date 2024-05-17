@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main, footer, nav, aside, section, div  {
+
+    display: block;
+
+}
+
+header{
+    display: flex;
+    height: 128px;
+    padding-top: 1px;
+    margin-top: auto;
+    gap: 135px;
+}
+
+#wrapper {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#header_center{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: block;
+    background: url("../images/lego\ -\ logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    float: left;
+}
+
+#logo_name{
+    position: absolute;
+    top: 53px;
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: cursive;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+nav a{
+    position: relative;
+    color: #7b54a3;
+    font-family: cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#612999;
+    cursor: pointer;
+}
+
+
+#nav_section{
+    padding-right: 120px;
+}
+
+#home{
+    font-weight: 700;
+}
