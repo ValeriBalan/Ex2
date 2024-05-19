@@ -327,9 +327,13 @@ h4{
     width: 63px;
     height: 63px;
     flex-shrink: 0;
-    position: relative;
-    bottom: 27px;
-    right: 51px;
+    display: flex;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #612999;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 #images_container{
@@ -388,6 +392,35 @@ h4{
     font-style: normal;
     line-height: 40px;
     padding-bottom: 16px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.list_icon_button{
+    width: 82px;
+    height: 82px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #612999;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.category_name{
+    color: #000;
+    font-family: cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
 }
 
 footer{
