@@ -3,10 +3,8 @@
     padding: 0;
 }
 
-main, footer, nav, aside, section, div  {
-
+main, footer, nav, section, div  {
     display: block;
-
 }
 
 html, body {
@@ -84,6 +82,10 @@ nav a:hover {
 }
 
 #home{
+    font-weight: 700;
+}
+
+#our_shop{
     font-weight: 700;
 }
 
@@ -169,6 +171,12 @@ body{
     padding-bottom: 27px;
 }
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
 .card{
     width: 376px;
     height: 496px;
@@ -178,6 +186,7 @@ body{
     display: flex;
     box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
     position: relative;
+    margin-bottom: 32px;
 }
 
 #img_1card{
